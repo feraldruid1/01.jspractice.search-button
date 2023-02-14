@@ -1,5 +1,5 @@
-let elem=document.querySelector("div")
+let elem=document.querySelector("div");
 function button(){
-    elem.style.width=400+"px"
-    elem.innerHTML="search"
+    elem.style.width=600+"px";
+    elem.className="newdiv"
 }

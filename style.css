@@ -10,8 +10,15 @@ body{
     height: 100vh;
     background-color: #785bed;
 }
-div{
-    width: 100px;
-    height: 100px;
-    background-color: #fefefd;
+input{
+    width: 700px;
+    height: 150px;
+    font-size: 90px;
+    background-image: url(./bx-search.svg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 550px ;
+}
+textarea:focus, input:focus{
+    outline: none;
 }
