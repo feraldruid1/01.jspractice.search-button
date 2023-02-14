@@ -11,14 +11,16 @@ body{
     background-color: #785bed;
 }
 input{
-    width: 700px;
+    width: 150px;
     height: 150px;
-    font-size: 90px;
     background-image: url(./bx-search.svg);
-    background-repeat: no-repeat;
     background-size: 150px;
-    background-position: 550px ;
+    background-repeat: no-repeat;
+    font-size: 0px;
 }
 textarea:focus, input:focus{
     outline: none;
+    font-size: 90px;
+    background-position: 550px ;
+    width: 700px;
 }

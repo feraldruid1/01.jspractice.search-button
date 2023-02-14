@@ -1,5 +1,4 @@
-let elem=document.querySelector("div");
+let elem=document.querySelector("input");
 function button(){
-    elem.style.width=600+"px";
-    elem.className="newdiv"
+    elem.style.width=700+"px";
 }
